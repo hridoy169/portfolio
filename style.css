@@ -37,6 +37,10 @@ header .nav ul li a {
   font-size: 12px;
 }
 
+header .nav ul li .current {
+  color: #8490ff;
+}
+
 header .nav ul li a:hover {
   color: #8490ff;
   transition: all 0.3s ease 0s;
