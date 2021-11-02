@@ -210,8 +210,13 @@ header .nav ul li a:hover {
   margin-bottom: 1rem;
 }
 
-/* Services */
 .services {
   width: 80%;
   margin: 0 auto;
+}
+
+.ser1,
+.ser2 {
+  width: 100%;
+  overflow: hidden;
 }
