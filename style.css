@@ -116,7 +116,12 @@ header .nav ul li a:hover {
   color: #fff;
   display: inline-block;
   font-weight: 500;
-  transition: all 0.3s ease 0s;
   cursor: pointer;
   position: relative;
+}
+
+.btn:hover {
+  box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.5);
+  transition: all 0.3s ease 0s;
+  outline: none;
 }
