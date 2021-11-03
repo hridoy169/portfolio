@@ -226,5 +226,44 @@ header .nav ul li a:hover {
 
 .ser1 > * {
   flex: 1 1 33.33333%;
-  padding: 30px;
+  padding: 25px;
+}
+
+.services i {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.services h4 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #222222;
+  line-height: 1.2em;
+  font-weight: 600;
+}
+
+.services p {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+  margin-bottom: 1rem;
+}
+
+.ser1 div:hover {
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  cursor: pointer;
+}
+
+.ser1 div:hover i {
+  color: white;
+}
+
+.ser1 div:hover h4 {
+  color: white;
+}
+
+.ser1 div:hover p {
+  color: white;
 }
