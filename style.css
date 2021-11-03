@@ -213,10 +213,18 @@ header .nav ul li a:hover {
 .services {
   width: 80%;
   margin: 0 auto;
+  padding-top: 45px;
 }
 
-.ser1,
-.ser2 {
+.ser1 {
   width: 100%;
   overflow: hidden;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ser1 > * {
+  flex: 1 1 33.33333%;
+  padding: 30px;
 }
