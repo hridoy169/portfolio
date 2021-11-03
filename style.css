@@ -271,6 +271,7 @@ header .nav ul li a:hover {
 /* Facts */
 .facts {
   width: 100%;
+  padding: 120px 0;
   height: 300px;
   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
 
@@ -289,6 +290,30 @@ header .nav ul li a:hover {
 
 .facts p {
   color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
+
+/* Portfolio */
+.portfolio {
+  width: 100%;
+  padding: 120px 0;
+}
+
+.portfolio .text {
+  text-align: center;
+}
+
+.portfolio .text h1 {
+  font-size: 36px;
+  color: #222222;
+  line-height: 1.2em;
+  font-weight: 600;
+}
+
+.portfolio .text p {
+  color: #777777;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.625em;
