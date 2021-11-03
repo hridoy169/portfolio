@@ -318,3 +318,19 @@ header .nav ul li a:hover {
   font-weight: 300;
   line-height: 1.625em;
 }
+
+.portfolio .gallery {
+  width: 75%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.portfolio .gallery div {
+  width: 340px;
+  height: 339px;
+  padding-bottom: 40px;
+  text-align: center;
+}
