@@ -122,7 +122,6 @@ header .nav ul li a:hover {
   display: inline-block;
   font-weight: 500;
   cursor: pointer;
-  position: relative;
 }
 
 .btn:hover {
