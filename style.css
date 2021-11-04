@@ -498,3 +498,20 @@ header .nav ul li a:hover {
 .card .card1:hover .card-list ul li {
   color: #fff;
 }
+
+.card1:hover > h1 {
+  transition: all 0.3s ease 0s;
+  font-weight: 300;
+  margin: 0 auto;
+  width: 140px;
+  height: 140px;
+  background-color: rgba(241, 241, 241, 0.1);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 30px solid rgba(243, 243, 243, 0.322);
+  font-size: 36px;
+  color: #222222;
+  line-height: 1.2em;
+}
