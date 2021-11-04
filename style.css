@@ -320,17 +320,29 @@ header .nav ul li a:hover {
 }
 
 .portfolio .gallery {
-  width: 75%;
-  height: auto;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 373px);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
 }
 
-.portfolio .gallery div {
-  width: 340px;
-  height: 339px;
-  padding-bottom: 40px;
+.portfolio .gallery > div {
   text-align: center;
+  padding-bottom: 40px;
+}
+
+.portfolio .gallery h4 {
+  color: #222222;
+  line-height: 1.2em;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.portfolio .gallery p {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
 }
