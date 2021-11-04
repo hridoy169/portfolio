@@ -385,3 +385,34 @@ header .nav ul li a:hover {
   font-weight: 300;
   line-height: 1.625em;
 }
+
+.pricing .card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing .card .card1 {
+  text-align: center;
+  background-color: #f9f9ff;
+  padding: 40px 20px;
+}
+
+.card1 > h1 {
+  transition: all 0.3s ease 0s;
+  font-weight: 300;
+  margin: 0 auto;
+  width: 140px;
+  height: 140px;
+  background-color: rgba(132, 144, 255, 0.1);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 30px solid rgba(132, 144, 255, 0.1);
+  font-size: 36px;
+  color: #222222;
+  line-height: 1.2em;
+}
