@@ -362,3 +362,26 @@ header .nav ul li a:hover {
 }
 
 /* Pricing */
+.pricing {
+  width: 100%;
+}
+
+.pricing .text2 {
+  text-align: center;
+}
+
+.pricing .text2 h1 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  color: #222222;
+  line-height: 1.2em;
+  font-weight: 600;
+}
+
+.pricing .text2 p {
+  margin-bottom: 1rem;
+  color: #777777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
