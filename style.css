@@ -398,6 +398,7 @@ header .nav ul li a:hover {
   text-align: center;
   background-color: #f9f9ff;
   padding: 40px 20px;
+  flex: 0 0 20%;
 }
 
 .card1 > h1 {
@@ -480,6 +481,7 @@ header .nav ul li a:hover {
 .card .card1:hover {
   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   transition: all 0.3s ease 0s;
+  transform: scale(1.05);
 }
 
 .card .card1:hover .card-price h1 {
