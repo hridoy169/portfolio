@@ -479,6 +479,7 @@ header .nav ul li a:hover {
 
 .card .card1:hover {
   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  transition: all 0.3s ease 0s;
 }
 
 .card .card1:hover .card-price h1 {
@@ -494,10 +495,6 @@ header .nav ul li a:hover {
   color: #fff;
 }
 
-.card-list ul:hover > * {
+.card .card1:hover .card-list ul li {
   color: #fff;
 }
-/* 
-.card .card1:hover .price-btn {
-  display: block;
-} */
