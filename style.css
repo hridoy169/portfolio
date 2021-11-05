@@ -61,19 +61,6 @@ header .nav ul li a:hover {
   transition: all 0.3s ease 0s;
 }
 
-.checkbtn {
-  display: none;
-  font-size: 30px;
-  color: rgba(0, 0, 0, 0.9);
-  line-height: 80px;
-  float: right;
-  margin-right: -170px;
-}
-
-#check {
-  display: none;
-}
-
 /* Hero Section */
 .hero {
   background-color: #f9f9ff;
@@ -589,5 +576,3 @@ header .nav ul li a:hover {
   color: #8490ff;
   transition: all 0.3s ease 0s;
 }
-
-/* Responsive */
